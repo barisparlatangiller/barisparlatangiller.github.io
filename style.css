@@ -83,3 +83,5 @@ h1 span { display:block; font-size:28px; letter-spacing:-.01em; color:var(--ink2
   .br { margin-left:0; width:100%; }
   .wrap { padding:0 16px; }
 }
+.clab { font: 500 12px "DM Sans", sans-serif; color: var(--ink); background: var(--card); padding: 1px 7px; border-radius: 999px; box-shadow: 0 1px 3px rgba(0,0,0,.12); white-space: nowrap; pointer-events: none; }
+.clab b { color: var(--acc); font-weight: 600; }

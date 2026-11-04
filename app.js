@@ -74,8 +74,11 @@
       map.addLayer({ id: "ca", type: "circle", source: "c", paint: { "circle-radius": ["+", 6, ["*", 3, ["get", "all"]]], "circle-color": matchMedia("(prefers-color-scheme: dark)").matches ? "#3a3732" : "#e9e3d8", "circle-stroke-color": matchMedia("(prefers-color-scheme: dark)").matches ? "#57534b" : "#c9bfb0", "circle-stroke-width": 1 } });
       map.addLayer({ id: "cl", type: "circle", source: "c", filter: [">", ["get", "l"], 0], paint: { "circle-radius": ["+", 3, ["*", 3, ["get", "l"]]], "circle-color": "#c2552d" } });
       map.addLayer({ id: "cs", type: "circle", source: "c", paint: { "circle-radius": ["+", 9, ["*", 3, ["get", "all"]]], "circle-color": "rgba(0,0,0,0)", "circle-stroke-color": matchMedia("(prefers-color-scheme: dark)").matches ? "#efece6" : "#2b2925", "circle-stroke-width": ["case", ["==", ["get", "c"], st.city], 2, 0] } });
-      map.addLayer({ id: "ct", type: "symbol", source: "c", layout: { "text-field": ["get", "t"], "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"], "text-size": 12,
-        "text-offset": [0, 1.6], "text-anchor": "top", "text-allow-overlap": true }, paint: { "text-color": matchMedia("(prefers-color-scheme: dark)").matches ? "#efece6" : "#2b2925", "text-halo-color": matchMedia("(prefers-color-scheme: dark)").matches ? "#161513" : "#fff", "text-halo-width": 1.6 } });
+      fc.features.forEach((f) => {                        // HTML labels: the no-label basemap ships no fonts for symbol layers
+        const el = document.createElement("div"); el.className = "clab";
+        el.innerHTML = `${esc(f.properties.c)} <b>${f.properties.l}/${f.properties.all}</b>`;
+        new maplibregl.Marker({ element: el, anchor: "top", offset: [0, 10 + 3 * f.properties.all] }).setLngLat(f.geometry.coordinates).addTo(map);
+      });
       const canvas = map.getCanvas();
       canvas.addEventListener("click", (e) => {
         const r = canvas.getBoundingClientRect(), f = map.queryRenderedFeatures([e.clientX - r.left, e.clientY - r.top], { layers: ["ca"] })[0];
