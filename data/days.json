@@ -1,0 +1,327 @@
+{
+ "updated": "2026-11-04",
+ "blocks": {
+  "1": "Heat & urban form",
+  "2": "Energy & infrastructure",
+  "3": "Housing & climate justice",
+  "4": "Time, water & synthesis"
+ },
+ "days": [
+  {
+   "day": 1,
+   "date": "2026-11-01",
+   "theme": "Points",
+   "city": "Berlin",
+   "block": 1,
+   "title": "Label vs. reality: Berlin's 'good location' addresses",
+   "question": "Do addresses labelled 'good location' in Berlin's rent index really cost more?",
+   "finding": "About 400,000 addresses: 'good' locations pay about 21 % more than 'simple' ones, but many blocks contradict their label.",
+   "status": "live",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D01-Points-Berlin-Rent-vs-Location/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D01-Points-Berlin-Rent-vs-Location",
+   "thumb": "assets/thumbs/day01.jpg"
+  },
+  {
+   "day": 2,
+   "date": "2026-11-02",
+   "theme": "Lines",
+   "city": "Leipzig",
+   "block": 1,
+   "title": "Trees are not enough",
+   "question": "Which Leipzig streets lack effective tree canopy, and where does that meet summer heat?",
+   "finding": "514 km of street have little canopy and are among the hottest third. Count is not cover.",
+   "status": "live",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D02-Lines-Leipzig-Street-Canopy-Heat/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D02-Lines-Leipzig-Street-Canopy-Heat",
+   "thumb": "assets/thumbs/day02.jpg"
+  },
+  {
+   "day": 3,
+   "date": "2026-11-03",
+   "theme": "Polygons",
+   "city": "Frankfurt",
+   "block": 1,
+   "title": "Frankfurt 2035: land value dynamics & scenarios",
+   "question": "How did official land values change 2022–2026, and where could they go by 2035?",
+   "finding": "Residential land −4 %, mixed use −18 %, commercial +6 %. What-if scenarios to 2035 and 291,000 buildings in 3D.",
+   "status": "live",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D03-Polygons-Frankfurt-Land-Value-2035/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D03-Polygons-Frankfurt-Land-Value-2035",
+   "thumb": "assets/thumbs/day03.jpg"
+  },
+  {
+   "day": 4,
+   "date": "2026-11-04",
+   "theme": "Clusters",
+   "city": "Berlin",
+   "block": 1,
+   "title": "Where Berlin brews: a week in coffee clusters",
+   "question": "Where do Berlin's cafés cluster, and how do the clusters change hour by hour?",
+   "finding": "45 café clusters at Wednesday lunch, 6 on Friday at 21:30, one on Saturday at 23:30.",
+   "status": "live",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D04-Clusters-Berlin-Coffee-Clusters/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D04-Clusters-Berlin-Coffee-Clusters",
+   "thumb": "assets/thumbs/day04.jpg"
+  },
+  {
+   "day": 5,
+   "date": "2026-11-05",
+   "theme": "Senses: Sight",
+   "city": "Frankfurt",
+   "block": 1,
+   "title": "Whose sun do the towers take?",
+   "question": "Which streets do Frankfurt's high-rises shade, hour by hour, on 21 June?",
+   "status": "planned"
+  },
+  {
+   "day": 6,
+   "date": "2026-11-06",
+   "theme": "Vintage",
+   "city": "Leipzig",
+   "block": 1,
+   "title": "A 170-year fever",
+   "question": "How has Leipzig's temperature changed since 1851?",
+   "status": "planned"
+  },
+  {
+   "day": 7,
+   "date": "2026-11-07",
+   "theme": "10 minute map",
+   "city": "8 cities",
+   "block": 1,
+   "title": "Who saw 30 °C, and how often?",
+   "question": "Hot days in 2025 across Germany's eight largest cities.",
+   "status": "planned"
+  },
+  {
+   "day": 8,
+   "date": "2026-11-08",
+   "theme": "Utopia",
+   "city": "Munich",
+   "block": 2,
+   "title": "If district heating reached everywhere",
+   "question": "Which grid cells suit district heating, and how many homes would it reach?",
+   "status": "planned"
+  },
+  {
+   "day": 9,
+   "date": "2026-11-09",
+   "theme": "Urban-rural",
+   "city": "Stuttgart",
+   "block": 2,
+   "title": "Escaping the Kessel: the rent and heat curve",
+   "question": "From the centre outwards: how fast do rents and tropical nights fall?",
+   "status": "planned"
+  },
+  {
+   "day": 10,
+   "date": "2026-11-10",
+   "theme": "Prompting only",
+   "city": "8 cities",
+   "block": 2,
+   "title": "Charging points per person",
+   "question": "How many EV charging points per 1,000 residents in eight cities?",
+   "status": "planned"
+  },
+  {
+   "day": 11,
+   "date": "2026-11-11",
+   "theme": "Senses: Sound",
+   "city": "Düsseldorf",
+   "block": 2,
+   "title": "Is there a noise discount?",
+   "question": "Are rents really lower where night noise is high?",
+   "status": "planned"
+  },
+  {
+   "day": 12,
+   "date": "2026-11-12",
+   "theme": "Power",
+   "city": "Frankfurt",
+   "block": 2,
+   "title": "The cloud's nodes",
+   "question": "How close are data centres to substations?",
+   "status": "planned"
+  },
+  {
+   "day": 13,
+   "date": "2026-11-13",
+   "theme": "Interactions",
+   "city": "Hamburg",
+   "block": 2,
+   "title": "Bike ↔ train",
+   "question": "How close are StadtRAD stations to S- and U-Bahn stops?",
+   "status": "planned"
+  },
+  {
+   "day": 14,
+   "date": "2026-11-14",
+   "theme": "Borgesian map",
+   "city": "Frankfurt",
+   "block": 2,
+   "title": "Every square metre of a square",
+   "question": "Frankfurt's hottest public square at 1 m resolution.",
+   "status": "planned"
+  },
+  {
+   "day": 15,
+   "date": "2026-11-15",
+   "theme": "Inside out",
+   "city": "Berlin",
+   "block": 3,
+   "title": "When streets become rivers",
+   "question": "How many homes sit on streets that turn into flow paths in heavy rain?",
+   "status": "planned"
+  },
+  {
+   "day": 16,
+   "date": "2026-11-16",
+   "theme": "Collaborative map",
+   "city": "Berlin",
+   "block": 3,
+   "title": "A map drawn by thousands",
+   "question": "In which neighbourhoods do Berliners water street trees?",
+   "status": "planned"
+  },
+  {
+   "day": 17,
+   "date": "2026-11-17",
+   "theme": "Light & dark",
+   "city": "Leipzig",
+   "block": 3,
+   "title": "Dark windows: empty homes",
+   "question": "Where do Leipzig's vacant homes concentrate?",
+   "status": "planned"
+  },
+  {
+   "day": 18,
+   "date": "2026-11-18",
+   "theme": "NULL",
+   "city": "Stuttgart",
+   "block": 3,
+   "title": "The city that isn't open",
+   "question": "How far can a city map get with national open data alone?",
+   "status": "planned"
+  },
+  {
+   "day": 19,
+   "date": "2026-11-19",
+   "theme": "Senses: Smell",
+   "city": "Cologne",
+   "block": 3,
+   "title": "Cheap rent, smelly neighbours",
+   "question": "Do sewage plants, industry and motorways push rents down?",
+   "status": "planned"
+  },
+  {
+   "day": 20,
+   "date": "2026-11-20",
+   "theme": "Hexagons",
+   "city": "Berlin",
+   "block": 3,
+   "title": "Double burden: rent × heat",
+   "question": "How many Berliners live where it is both cheap and hot?",
+   "status": "planned"
+  },
+  {
+   "day": 21,
+   "date": "2026-11-21",
+   "theme": "OpenStreetMap",
+   "city": "Hamburg",
+   "block": 3,
+   "title": "Playgrounds without shade",
+   "question": "Which playgrounds have no tree shade?",
+   "status": "planned"
+  },
+  {
+   "day": 22,
+   "date": "2026-11-22",
+   "theme": "Projections",
+   "city": "8 cities",
+   "block": 3,
+   "title": "A rent map in the right projection",
+   "question": "How does the projection change a rent comparison?",
+   "status": "planned"
+  },
+  {
+   "day": 23,
+   "date": "2026-11-23",
+   "theme": "Senses: Taste",
+   "city": "Cologne",
+   "block": 3,
+   "title": "The Büdchen economy",
+   "question": "Does the density of kiosks follow rent levels?",
+   "status": "planned"
+  },
+  {
+   "day": 24,
+   "date": "2026-11-24",
+   "theme": "Network",
+   "city": "Munich",
+   "block": 4,
+   "title": "Minutes and euros",
+   "question": "Does cheaper rent in Munich mean longer transit trips?",
+   "status": "planned"
+  },
+  {
+   "day": 25,
+   "date": "2026-11-25",
+   "theme": "Is this a map?",
+   "city": "8 cities",
+   "block": 4,
+   "title": "A rent–heat chart linked to the map",
+   "question": "How do rent and tropical nights spread across eight cities?",
+   "status": "planned"
+  },
+  {
+   "day": 26,
+   "date": "2026-11-26",
+   "theme": "Water",
+   "city": "Düsseldorf",
+   "block": 4,
+   "title": "The Rhine premium",
+   "question": "How much does being near the Rhine add to land value and rent?",
+   "status": "planned"
+  },
+  {
+   "day": 27,
+   "date": "2026-11-27",
+   "theme": "New tool",
+   "city": "Leipzig",
+   "block": 4,
+   "title": "Tens of thousands of trees, one screen",
+   "question": "Leipzig's trees and watering data in a new tool.",
+   "status": "planned"
+  },
+  {
+   "day": 28,
+   "date": "2026-11-28",
+   "theme": "Senses: Feeling",
+   "city": "8 cities",
+   "block": 4,
+   "title": "Living burden index (finale)",
+   "question": "Where do heat, rent and charging access weigh most together?",
+   "status": "planned"
+  },
+  {
+   "day": 29,
+   "date": "2026-11-29",
+   "theme": "Raster",
+   "city": "Stuttgart",
+   "block": 4,
+   "title": "30 years of tropical nights",
+   "question": "How did Stuttgart's tropical nights change 1995–2023?",
+   "status": "planned"
+  },
+  {
+   "day": 30,
+   "date": "2026-11-30",
+   "theme": "Pen & paper",
+   "city": "Frankfurt",
+   "block": 4,
+   "title": "A hand-drawn proposal",
+   "question": "A hand-drawn intervention plan for the most burdened neighbourhood.",
+   "status": "planned"
+  }
+ ]
+}
