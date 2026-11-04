@@ -59,19 +59,22 @@
 
   function initMap() {
     if (!window.maplibregl) return;
-    map = new maplibregl.Map({ container: "map", style: "https://basemaps.cartocdn.com/gl/positron-nolabels-gl-style/style.json",
+    map = new maplibregl.Map({ container: "map", style: `https://basemaps.cartocdn.com/gl/${matchMedia("(prefers-color-scheme: dark)").matches ? "dark-matter" : "positron"}-nolabels-gl-style/style.json`,
       bounds: [[5.6, 47.3], [15.2, 55.0]], fitBoundsOptions: { padding: 18 }, interactive: false, attributionControl: false });
-    map.on("load", () => {
+    let ready = false;
+    const setup = () => {
+      if (ready || !(map.style && map.style._loaded)) return;
+      ready = true;
       const fc = { type: "FeatureCollection", features: Object.entries(CITY).map(([c, ll]) => {
         const all = D.days.filter((d) => d.city === c).length, l = D.days.filter((d) => d.city === c && d.status === "live").length;
         return { type: "Feature", properties: { c, all, l, t: `${c} ${l}/${all}` }, geometry: { type: "Point", coordinates: ll } };
       }) };
       map.addSource("c", { type: "geojson", data: fc });
-      map.addLayer({ id: "ca", type: "circle", source: "c", paint: { "circle-radius": ["+", 6, ["*", 3, ["get", "all"]]], "circle-color": "#e9e3d8", "circle-stroke-color": "#c9bfb0", "circle-stroke-width": 1 } });
+      map.addLayer({ id: "ca", type: "circle", source: "c", paint: { "circle-radius": ["+", 6, ["*", 3, ["get", "all"]]], "circle-color": matchMedia("(prefers-color-scheme: dark)").matches ? "#3a3732" : "#e9e3d8", "circle-stroke-color": matchMedia("(prefers-color-scheme: dark)").matches ? "#57534b" : "#c9bfb0", "circle-stroke-width": 1 } });
       map.addLayer({ id: "cl", type: "circle", source: "c", filter: [">", ["get", "l"], 0], paint: { "circle-radius": ["+", 3, ["*", 3, ["get", "l"]]], "circle-color": "#c2552d" } });
-      map.addLayer({ id: "cs", type: "circle", source: "c", paint: { "circle-radius": ["+", 9, ["*", 3, ["get", "all"]]], "circle-color": "rgba(0,0,0,0)", "circle-stroke-color": "#2b2925", "circle-stroke-width": ["case", ["==", ["get", "c"], st.city], 2, 0] } });
+      map.addLayer({ id: "cs", type: "circle", source: "c", paint: { "circle-radius": ["+", 9, ["*", 3, ["get", "all"]]], "circle-color": "rgba(0,0,0,0)", "circle-stroke-color": matchMedia("(prefers-color-scheme: dark)").matches ? "#efece6" : "#2b2925", "circle-stroke-width": ["case", ["==", ["get", "c"], st.city], 2, 0] } });
       map.addLayer({ id: "ct", type: "symbol", source: "c", layout: { "text-field": ["get", "t"], "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"], "text-size": 12,
-        "text-offset": [0, 1.6], "text-anchor": "top", "text-allow-overlap": true }, paint: { "text-color": "#2b2925", "text-halo-color": "#fff", "text-halo-width": 1.6 } });
+        "text-offset": [0, 1.6], "text-anchor": "top", "text-allow-overlap": true }, paint: { "text-color": matchMedia("(prefers-color-scheme: dark)").matches ? "#efece6" : "#2b2925", "text-halo-color": matchMedia("(prefers-color-scheme: dark)").matches ? "#161513" : "#fff", "text-halo-width": 1.6 } });
       const canvas = map.getCanvas();
       canvas.addEventListener("click", (e) => {
         const r = canvas.getBoundingClientRect(), f = map.queryRenderedFeatures([e.clientX - r.left, e.clientY - r.top], { layers: ["ca"] })[0];
@@ -81,7 +84,10 @@
       canvas.addEventListener("mousemove", (e) => {
         const r = canvas.getBoundingClientRect(); canvas.style.cursor = map.queryRenderedFeatures([e.clientX - r.left, e.clientY - r.top], { layers: ["ca"] }).length ? "pointer" : "";
       });
-    });
+    };
+    map.on("load", setup);
+    map.on("styledata", () => setTimeout(setup, 0));
+    const poll = setInterval(() => { setup(); if (ready) clearInterval(poll); }, 300);
   }
   function hl() { if (map && map.getLayer("cs")) map.setPaintProperty("cs", "circle-stroke-width", ["case", ["==", ["get", "c"], st.city], 2, 0]); }
 })();
