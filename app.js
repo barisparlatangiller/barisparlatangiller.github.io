@@ -61,6 +61,7 @@
     if (!window.maplibregl) return;
     map = new maplibregl.Map({ container: "map", style: `https://basemaps.cartocdn.com/gl/${matchMedia("(prefers-color-scheme: dark)").matches ? "dark-matter" : "positron"}-nolabels-gl-style/style.json`,
       bounds: [[5.6, 47.3], [15.2, 55.0]], fitBoundsOptions: { padding: 18 }, interactive: false, attributionControl: false });
+    window._hub = map;
     let ready = false;
     const setup = () => {
       if (ready || !(map.style && map.style._loaded)) return;
