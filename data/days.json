@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "blocks": {
   "1": "Heat & urban form",
   "2": "Energy & infrastructure",
@@ -69,9 +69,13 @@
    "theme": "Senses: Sight",
    "city": "Frankfurt",
    "block": 1,
-   "title": "Whose sun do the towers take?",
-   "question": "Which streets do Frankfurt's high-rises shade, hour by hour, on 21 June?",
-   "status": "planned"
+   "title": "Frankfurt's giants: who gets the sun?",
+   "question": "How do Frankfurt's buildings of 30 m and more shade the streets and rooftops around them, across the year?",
+   "status": "live",
+   "finding": "On 21 June, 4.1 km² of streets and rooftops lose 3+ hours of direct sun to 1,843 buildings of 30 m and more, cast onto real LoD2 roofs.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D05-Sight-Frankfurt-HighRise-Shadows/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D05-Sight-Frankfurt-HighRise-Shadows",
+   "thumb": "assets/thumbs/day05.jpg"
   },
   {
    "day": 6,

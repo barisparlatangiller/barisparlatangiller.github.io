@@ -19,7 +19,8 @@ and a one-line `finding`. Push — the page reads the file on load.
 | 2 | Lines | Leipzig | [Trees are not enough](https://barisparlatangiller.github.io/30DMC26-D02-Lines-Leipzig-Street-Canopy-Heat/) |
 | 3 | Polygons | Frankfurt | [Frankfurt 2035: land values](https://barisparlatangiller.github.io/30DMC26-D03-Polygons-Frankfurt-Land-Value-2035/) |
 | 4 | Clusters | Berlin | [Where Berlin brews](https://barisparlatangiller.github.io/30DMC26-D04-Clusters-Berlin-Coffee-Clusters/) |
+| 5 | Senses: Sight | Frankfurt | [Frankfurt's giants: who gets the sun?](https://barisparlatangiller.github.io/30DMC26-D05-Sight-Frankfurt-HighRise-Shadows/) |
 
-Days 5–30 follow the plan in `data/days.json`.
+Days 6–30 follow the plan in `data/days.json`.
 
 Code MIT · data licences per map · built with AI assistance (Claude, Anthropic).
