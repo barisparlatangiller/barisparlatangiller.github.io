@@ -83,9 +83,13 @@
    "theme": "Vintage",
    "city": "Leipzig",
    "block": 1,
-   "title": "A 170-year fever",
+   "title": "The Names We Left Behind: Istanbul's forgotten place names",
    "question": "How has Leipzig's temperature changed since 1851?",
-   "status": "planned"
+   "status": "live",
+   "finding": "161 places still carry an old name in OpenStreetMap, from Christea Turris (Galata Tower) and Myrelaion (Bodrum Mosque) to Boğaziçi Köprüsü and Nef Stadyumu.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D06-Vintage-Istanbul-Old-Names/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D06-Vintage-Istanbul-Old-Names",
+   "thumb": "assets/thumbs/day06.jpg"
   },
   {
    "day": 7,
