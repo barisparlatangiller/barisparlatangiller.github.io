@@ -95,11 +95,15 @@
    "day": 7,
    "date": "2026-11-07",
    "theme": "10 minute map",
-   "city": "8 cities",
+   "city": "Europe",
    "block": 1,
-   "title": "Who saw 30 °C, and how often?",
-   "question": "Hot days in 2025 across Germany's eight largest cities.",
-   "status": "planned"
+   "title": "Christmas Is Loading… Europe's Christmas markets, 2026",
+   "question": "Where are Europe's Christmas markets in OpenStreetMap, and when does each open in 2026?",
+   "status": "live",
+   "finding": "1,265 markets mapped. At the peak of the season around 600 are open on the same day; 7 large markets have checked 2026 dates.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D07-10MinuteMap-Europe-Christmas-Markets/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D07-10MinuteMap-Europe-Christmas-Markets",
+   "thumb": "assets/thumbs/day07.jpg"
   },
   {
    "day": 8,
