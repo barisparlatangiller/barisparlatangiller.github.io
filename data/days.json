@@ -123,11 +123,15 @@
    "day": 9,
    "date": "2026-11-09",
    "theme": "Urban-rural",
-   "city": "Stuttgart",
+   "city": "Berlin–Brandenburg",
    "block": 2,
-   "title": "Escaping the Kessel: the rent and heat curve",
-   "question": "From the centre outwards: how fast do rents and tropical nights fall?",
-   "status": "planned"
+   "title": "Homeoffice rettet das Dorf?",
+   "question": "If you only went to the office a few days a week, how many of Brandenburg's empty homes would be close enough to central Berlin by public transport?",
+   "status": "live",
+   "finding": "With 16 hours of commuting a month, about 1,800 empty homes qualify at 2 home-office days and 8,700 at 3. At 4 days it is about 42,500, or 62% of those counted.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D09-UrbanRural-Berlin-Homeoffice/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D09-UrbanRural-Berlin-Homeoffice",
+   "thumb": "assets/thumbs/day09.jpg"
   },
   {
    "day": 10,
