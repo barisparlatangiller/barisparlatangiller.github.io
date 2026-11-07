@@ -111,9 +111,13 @@
    "theme": "Utopia",
    "city": "Munich",
    "block": 2,
-   "title": "If district heating reached everywhere",
-   "question": "Which grid cells suit district heating, and how many homes would it reach?",
-   "status": "planned"
+   "title": "Die Dachrepublik: what if Munich's roofs belonged to everyone?",
+   "question": "If the flat roofs of Munich's city centre were shared among seven public uses and solar PV, who would gain access, and how many roofs would we actually need?",
+   "status": "live",
+   "finding": "With the default shares, 446 roofs close most service gaps and 2,397 flat roofs stay free. Residents with all seven uses within walking distance rise from 0% to 50%.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D08-Utopia-Munich-Dachrepublik/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D08-Utopia-Munich-Dachrepublik",
+   "thumb": "assets/thumbs/day08.jpg"
   },
   {
    "day": 9,
