@@ -151,11 +151,15 @@
    "day": 11,
    "date": "2026-11-11",
    "theme": "Senses: Sound",
-   "city": "Düsseldorf",
+   "city": "World (43 countries)",
    "block": 2,
-   "title": "Is there a noise discount?",
-   "question": "Are rents really lower where night noise is high?",
-   "status": "planned"
+   "title": "The Geography of Sound: what did the world listen to in 2026?",
+   "question": "Which artists, songs and genres did 43 countries chart on Spotify and YouTube in 2026, and which countries listen alike?",
+   "status": "live",
+   "finding": "Michael Jackson, KATSEYE and Zara Larsson reach the most top 10s. Zimbabwe and Türkiye are the most home-grown (87%); Australia–UK (0.95) and Austria–Germany (0.92) are musical twins.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D11-Sound-World-Music-Charts/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D11-Sound-World-Music-Charts",
+   "thumb": "assets/thumbs/day11.jpg"
   },
   {
    "day": 12,
