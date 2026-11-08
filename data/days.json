@@ -137,11 +137,15 @@
    "day": 10,
    "date": "2026-11-10",
    "theme": "Prompting only",
-   "city": "8 cities",
+   "city": "New York",
    "block": 2,
-   "title": "Charging points per person",
-   "question": "How many EV charging points per 1,000 residents in eight cities?",
-   "status": "planned"
+   "title": "NYC Pulse: where does New York's heart beat?",
+   "question": "Over 24 hours of one Tuesday, where do taxi, Uber/Lyft and subway trips concentrate, and where does the city's trip-weighted heart move?",
+   "status": "live",
+   "finding": "716,050 car trips and 4.4 million subway entries on 16 June 2026. Quietest at 03:00 (83 car trips a minute), busiest at 08:40 (787). At 8:00 about 10 people enter the subway for every car trip; the city's densest point stays in Midtown.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D10-PromptingOnly-NYC-Pulse/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D10-PromptingOnly-NYC-Pulse",
+   "thumb": "assets/thumbs/day10.jpg"
   },
   {
    "day": 11,
