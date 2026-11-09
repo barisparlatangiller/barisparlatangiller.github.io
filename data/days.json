@@ -165,11 +165,15 @@
    "day": 12,
    "date": "2026-11-12",
    "theme": "Power",
-   "city": "Frankfurt",
+   "city": "Leipzig",
    "block": 2,
-   "title": "The cloud's nodes",
-   "question": "How close are data centres to substations?",
-   "status": "planned"
+   "title": "The Power of Secondhand: the second life of a neighbourhood",
+   "question": "Where do Leipzig's second-hand places cluster, what kinds are they, and how many residents live within a 15-minute walk of one?",
+   "status": "live",
+   "finding": "83 second-hand places on OSM; 66% of 599,035 residents live within a 15-minute walk of one. Used cars lead (24), then fashion (18); the centre and the west (Lindenau 8.2 places on foot) have the strongest hinterland.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D12-Power-Leipzig-Secondhand/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D12-Power-Leipzig-Secondhand",
+   "thumb": "assets/thumbs/day12.jpg"
   },
   {
    "day": 13,
