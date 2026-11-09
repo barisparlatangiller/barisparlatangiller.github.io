@@ -181,9 +181,13 @@
    "theme": "Interactions",
    "city": "Hamburg",
    "block": 2,
-   "title": "Bike ↔ train",
-   "question": "How close are StadtRAD stations to S- and U-Bahn stops?",
-   "status": "planned"
+   "title": "The City Is Lava: can a squirrel cross Hamburg?",
+   "question": "Can a squirrel cross Hamburg without touching the ground, jumping only between street-tree crowns and green areas?",
+   "status": "live",
+   "finding": "228,091 street-tree crowns form 133,424 separate groups; even with 2 m jumps 100,024 remain and the largest has 324 trees. Longest canopy path: 1.28 km in Stellingen. Plant or remove trees live.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D13-Interactions-Hamburg-City-Is-Lava/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D13-Interactions-Hamburg-City-Is-Lava",
+   "thumb": "assets/thumbs/day13.jpg"
   },
   {
    "day": 14,
