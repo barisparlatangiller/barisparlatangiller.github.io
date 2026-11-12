@@ -195,9 +195,13 @@
    "theme": "Borgesian map",
    "city": "Frankfurt",
    "block": 2,
-   "title": "Every square metre of a square",
-   "question": "Frankfurt's hottest public square at 1 m resolution.",
-   "status": "planned"
+   "title": "The Map That Knows Too Much: every square metre of a square",
+   "question": "How much spatial detail do we need to understand a square? Felt temperature on Frankfurt's squares at 100 m, 10 m and 1 m.",
+   "status": "live",
+   "finding": "At 16:00 on the hottest day of the June 2026 heatwave the 100 m map gives 15 of 24 squares a temperature less than 1% of their ground has: the average of sun (48 °C) and shade (41 °C).",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D14-Borgesian-Frankfurt-Square-Heat/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D14-Borgesian-Frankfurt-Square-Heat",
+   "thumb": "assets/thumbs/day14.jpg"
   },
   {
    "day": 15,
