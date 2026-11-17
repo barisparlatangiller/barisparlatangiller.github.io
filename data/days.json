@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "blocks": {
   "1": "Value, form & everyday life",
   "2": "Hidden patterns & what-if cities",
@@ -262,12 +262,16 @@
   {
    "day": 19,
    "date": "2026-11-19",
-   "theme": "Senses: Smell",
-   "city": "?",
+   "theme": "Smell",
+   "city": "Izmir",
    "block": 3,
-   "title": "A city you can smell",
-   "question": "City and story revealed on 19 Nov.",
-   "status": "planned"
+   "title": "Smell · The invisible cloud over İzmir",
+   "question": "Where does the smell of İzmir's gulf drift with the sea breeze, hour by hour?",
+   "status": "live",
+   "finding": "On a hot July day 96,647 buildings sit in a modelled odour cloud for 4 h or more; 88% of it comes from the sewage-fed gulf and its stream mouths. A 3D scenario, not a measurement.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D19-Smell-Izmir-Invisible-Cloud/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D19-Smell-Izmir-Invisible-Cloud",
+   "thumb": "assets/thumbs/day19.jpg"
   },
   {
    "day": 20,
