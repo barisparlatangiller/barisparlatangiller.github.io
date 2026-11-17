@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "blocks": {
   "1": "Value, form & everyday life",
   "2": "Hidden patterns & what-if cities",
@@ -277,11 +277,15 @@
    "day": 20,
    "date": "2026-11-20",
    "theme": "Hexagons",
-   "city": "?",
+   "city": "Berlin",
    "block": 3,
-   "title": "Six sides of one problem",
-   "question": "City and story revealed on 20 Nov.",
-   "status": "planned"
+   "title": "Hexagons · Bee highways: the missing links",
+   "question": "Where can Berlin's wild bees travel from flower to flower, and which flowering stops would close the gaps?",
+   "status": "live",
+   "finding": "A floating honeycomb over Tempelhofer Feld, Hasenheide and Neukölln: in July the largest flower network a small wild bee can use grows from 312 to 762 ha with 25 flowering bus and tram stops. A model of potential.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D20-Hexagons-Berlin-Bee-Highways/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D20-Hexagons-Berlin-Bee-Highways",
+   "thumb": "assets/thumbs/day20.jpg"
   },
   {
    "day": 21,
