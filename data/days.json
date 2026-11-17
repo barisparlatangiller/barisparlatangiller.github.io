@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-17",
  "blocks": {
   "1": "Heat & urban form",
   "2": "Energy & infrastructure",
@@ -207,11 +207,15 @@
    "day": 15,
    "date": "2026-11-15",
    "theme": "Inside out",
-   "city": "Berlin",
+   "city": "Koblenz",
    "block": 3,
-   "title": "When streets become rivers",
-   "question": "How many homes sit on streets that turn into flow paths in heavy rain?",
-   "status": "planned"
+   "title": "The Invisible Lake: where cold air pools at night",
+   "question": "Where does cold night air flow and collect in Koblenz's valleys, and which homes sit inside the invisible lake?",
+   "status": "live",
+   "finding": "On a clear summer night cold air drains down the Rhine, Moselle and side valleys into a lake you cannot see; 60% of residential land lies under 20 m or more of it.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D15-InsideOut-Koblenz-Invisible-Lake/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D15-InsideOut-Koblenz-Invisible-Lake",
+   "thumb": "assets/thumbs/day15.jpg"
   },
   {
    "day": 16,
@@ -219,19 +223,27 @@
    "theme": "Collaborative map",
    "city": "Berlin",
    "block": 3,
-   "title": "A map drawn by thousands",
-   "question": "In which neighbourhoods do Berliners water street trees?",
-   "status": "planned"
+   "title": "How step-free is Berlin? A map drawn by volunteers",
+   "question": "How wheelchair-accessible are Berlin's places and stations, according to the map thousands of volunteers build together?",
+   "status": "live",
+   "finding": "Of 56,190 places half have wheelchair information; 46% of those are step-free, from 76% in Marzahn-Hellersdorf to 36% in Friedrichshain-Kreuzberg. U-Bahn 78% step-free, 73% of tram stops not recorded.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D16-Collaborative-Berlin-Wheelchair-Map/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D16-Collaborative-Berlin-Wheelchair-Map",
+   "thumb": "assets/thumbs/day16.jpg"
   },
   {
    "day": 17,
    "date": "2026-11-17",
    "theme": "Light & dark",
-   "city": "Leipzig",
+   "city": "Frankfurt",
    "block": 3,
-   "title": "Dark windows: empty homes",
-   "question": "Where do Leipzig's vacant homes concentrate?",
-   "status": "planned"
+   "title": "Light & Dark: the towers that take the sun and give it back",
+   "question": "Frankfurt's towers cast shade, and their glass façades throw sunlight back. Where do streets lose the sun, where do they get it twice?",
+   "status": "live",
+   "finding": "On 21 June 341 ha of streets and roofs lose sun to one tower and get it back from a glass one; 1,821 ha only lose sun, 172 ha only get reflected sun. Brightest mirror: the ECB. Tap any street for its day.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D17-LightDark-Frankfurt-Tower-Glare/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D17-LightDark-Frankfurt-Tower-Glare",
+   "thumb": "assets/thumbs/day17.jpg"
   },
   {
    "day": 18,
