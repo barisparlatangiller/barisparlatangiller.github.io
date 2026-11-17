@@ -4,7 +4,7 @@
   const $ = (s) => document.querySelector(s);
   const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const BC = { 1: "#c2552d", 2: "#2f6fb0", 3: "#9b3f86", 4: "#1f8a7a" };
-  const CITY = { Berlin: [13.405, 52.52], Hamburg: [9.993, 53.551], Munich: [11.576, 48.137], Cologne: [6.96, 50.938], Frankfurt: [8.682, 50.11],
+  const CITY = { Berlin: [13.405, 52.52], Koblenz: [7.598, 50.356], Hamburg: [9.993, 53.551], Munich: [11.576, 48.137], Cologne: [6.96, 50.938], Frankfurt: [8.682, 50.11],
                  Stuttgart: [9.18, 48.776], "Düsseldorf": [6.773, 51.228], Leipzig: [12.374, 51.34] };
   const st = { status: "all", city: "all" };
   let D, map;
