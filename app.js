@@ -28,7 +28,7 @@
           <span class="go">Open the interactive map →</span></div></a>`;
     }
 
-    const cities = ["all", ...Object.keys(CITY).filter((c) => D.days.some((d) => d.city === c)), "8 cities"];
+    const cities = ["all", ...Object.keys(CITY).filter((c) => D.days.some((d) => d.city === c)), ...(D.days.some((d) => d.city === "8 cities") ? ["8 cities"] : [])];
     $("#fStatus").innerHTML = [["all", "All 30 days"], ["live", `Live (${n})`], ["planned", `Coming (${30 - n})`]]
       .map(([k, l]) => `<button data-s="${k}" class="${st.status === k ? "on" : ""}">${l}</button>`).join("");
     $("#fCity").innerHTML = cities.map((c) => `<button data-c="${esc(c)}" class="${st.city === c ? "on" : ""}">${c === "all" ? "All cities" : esc(c)}</button>`).join("");
