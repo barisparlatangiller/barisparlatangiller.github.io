@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "blocks": {
   "1": "Value, form & everyday life",
   "2": "Hidden patterns & what-if cities",
@@ -249,11 +249,15 @@
    "day": 18,
    "date": "2026-11-18",
    "theme": "NULL",
-   "city": "?",
+   "city": "Istanbul",
    "block": 3,
-   "title": "What the data leaves out",
-   "question": "City and story revealed on 18 Nov.",
-   "status": "planned"
+   "title": "NULL · On the map, out of reach: Istanbul's assembly areas",
+   "question": "How far is the walk from every building in Istanbul to its nearest earthquake assembly area, along real streets?",
+   "status": "live",
+   "finding": "1 in 4 residents, about 3.9 million people, live more than a 500 m walk from the nearest of 5,599 assembly areas; none of them has an official area or capacity. Tap a building for its route.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D18-NULL-Istanbul-Assembly-Access/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D18-NULL-Istanbul-Assembly-Access",
+   "thumb": "assets/thumbs/day18.jpg"
   },
   {
    "day": 19,
