@@ -291,11 +291,15 @@
    "day": 21,
    "date": "2026-11-21",
    "theme": "OpenStreetMap",
-   "city": "?",
+   "city": "Hamburg",
    "block": 3,
-   "title": "Built by the crowd",
-   "question": "City and story revealed on 21 Nov.",
-   "status": "planned"
+   "title": "OpenStreetMap · The incomplete playground",
+   "question": "What does the map know about Hamburg's playgrounds? Shade, trees, benches, wheelchair access and equipment, tag by tag.",
+   "status": "live",
+   "finding": "85% of the official playgrounds in Altona + Eimsbüttel are on OpenStreetMap, but 39% of the 672 public ones answer none of five questions and none has shade tagged. On a July afternoon the map alone explains 1% shade; with satellite canopy and LoD2 buildings, 58%.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D21-OSM-Hamburg-Incomplete-Playground/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D21-OSM-Hamburg-Incomplete-Playground",
+   "thumb": "assets/thumbs/day21.jpg"
   },
   {
    "day": 22,
