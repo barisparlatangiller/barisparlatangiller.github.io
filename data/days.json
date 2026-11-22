@@ -305,11 +305,15 @@
    "day": 22,
    "date": "2026-11-22",
    "theme": "Projections",
-   "city": "?",
+   "city": "Frankfurt",
    "block": 3,
-   "title": "The shape of the truth",
-   "question": "City and story revealed on 22 Nov.",
-   "status": "planned"
+   "title": "Projections · Why flights curve",
+   "question": "Why do flights from Frankfurt look curved on the map? Four real Lufthansa flights on four projections.",
+   "status": "live",
+   "finding": "On Mercator the shortest path looks curved; the 'straight' line is longer: +1,212 km to Los Angeles, +1,366 km to Tokyo. Three real flights stayed within 2.2% of the shortest path; LH716 to Tokyo flew 1,998 km (21%) more around closed Russian airspace.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D22-Projections-Frankfurt-Great-Circles/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D22-Projections-Frankfurt-Great-Circles",
+   "thumb": "assets/thumbs/day22.jpg"
   },
   {
    "day": 23,
