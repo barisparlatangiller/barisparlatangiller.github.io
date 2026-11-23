@@ -319,11 +319,15 @@
    "day": 23,
    "date": "2026-11-23",
    "theme": "Senses: Taste",
-   "city": "?",
+   "city": "Munich",
    "block": 3,
-   "title": "A taste of the street",
-   "question": "City and story revealed on 23 Nov.",
-   "status": "planned"
+   "title": "Taste · Pick your own Munich",
+   "question": "Where around Munich can you pick your own strawberries, cut your own flowers or grow your own vegetables, and when?",
+   "status": "live",
+   "finding": "54 places to pick or cut around Munich (33 berry & fruit fields, 19 flower fields, 2 pumpkin stands) plus 7 city Krautgärten. 51 are open in June and July, none from November to March. Not one OSM feature in the region carries pick_your_own=yes.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D23-Taste-Munich-Pick-Your-Own/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D23-Taste-Munich-Pick-Your-Own",
+   "thumb": "assets/thumbs/day23.jpg"
   },
   {
    "day": 24,
