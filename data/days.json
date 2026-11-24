@@ -370,9 +370,9 @@
    "city": "Hamburg",
    "block": 4,
    "title": "New Tool · Urban Potential Explorer",
-   "question": "One Hamburg block, 29 parcels: what the plan allows, what stands today, and what could realistically be added?",
+   "question": "One Hamburg block, 26 parcels: what the plan allows, what stands today, and what could realistically be added?",
    "status": "live",
-   "finding": "B-Plan Barmbek-Süd 42 allows 36,151 m² of floor area; 24,116 m² are built. On paper +13,477 m² are still free; keeping every building standing, +11,579 m² are feasible, a third of it as rooftop extensions.",
+   "finding": "B-Plan Barmbek-Süd 42 allows 34,199 m² of floor area; 24,116 m² are built. On paper +11,525 m² are still free; keeping every building standing, +10,254 m² are feasible, a third of it as rooftop extensions.",
    "url": "https://barisparlatangiller.github.io/30DMC26-D27-NewTool-Hamburg-Urban-Potential/",
    "repo": "https://github.com/barisparlatangiller/30DMC26-D27-NewTool-Hamburg-Urban-Potential",
    "thumb": "assets/thumbs/day27.jpg"
