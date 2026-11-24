@@ -367,11 +367,15 @@
    "day": 27,
    "date": "2026-11-27",
    "theme": "New tool",
-   "city": "?",
+   "city": "Hamburg",
    "block": 4,
-   "title": "A new way to look",
-   "question": "City and story revealed on 27 Nov.",
-   "status": "planned"
+   "title": "New Tool · Urban Potential Explorer",
+   "question": "One Hamburg block, 29 parcels: what the plan allows, what stands today, and what could realistically be added?",
+   "status": "live",
+   "finding": "B-Plan Barmbek-Süd 42 allows 36,151 m² of floor area; 24,116 m² are built. On paper +13,477 m² are still free; keeping every building standing, +11,579 m² are feasible, a third of it as rooftop extensions.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D27-NewTool-Hamburg-Urban-Potential/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D27-NewTool-Hamburg-Urban-Potential",
+   "thumb": "assets/thumbs/day27.jpg"
   },
   {
    "day": 28,
