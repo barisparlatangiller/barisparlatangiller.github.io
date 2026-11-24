@@ -336,9 +336,9 @@
    "city": "Germany",
    "block": 4,
    "title": "Network · 12 Stunden. Ein Land. Ein Schienennetz.",
-   "question": "When a hub closes for an hour, how far does the delay travel through Germany's long-distance rail network?",
+   "question": "Plan, the real day and what if: how far does a delay travel through Germany's long-distance rail network?",
    "status": "live",
-   "finding": "841 long-distance trains on 23 Nov 2026, 06:00–18:00. Closing Köln Hbf for an hour delays 8 trains (117 min); Köln, Frankfurt, Hannover and the Köln–Rhein/Main line together: 46 trains and 966 delay minutes by the evening, in a gentle model.",
+   "finding": "841 long-distance trains on 23 Nov 2026, 06:00–18:00. Closing Köln, Frankfurt, Hannover and the Köln–Rhein/Main line for an hour: 46 trains and 966 delay minutes in a gentle model. The real Monday: 588 trains late and 10,591 delay minutes.",
    "url": "https://barisparlatangiller.github.io/30DMC26-D24-Network-Germany-Rail-Delays/",
    "repo": "https://github.com/barisparlatangiller/30DMC26-D24-Network-Germany-Rail-Delays",
    "thumb": "assets/thumbs/day24.jpg"
