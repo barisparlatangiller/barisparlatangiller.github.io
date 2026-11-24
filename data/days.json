@@ -333,11 +333,15 @@
    "day": 24,
    "date": "2026-11-24",
    "theme": "Network",
-   "city": "?",
+   "city": "Germany",
    "block": 4,
-   "title": "How far is close?",
-   "question": "City and story revealed on 24 Nov.",
-   "status": "planned"
+   "title": "Network · 12 Stunden. Ein Land. Ein Schienennetz.",
+   "question": "When a hub closes for an hour, how far does the delay travel through Germany's long-distance rail network?",
+   "status": "live",
+   "finding": "841 long-distance trains on 23 Nov 2026, 06:00–18:00. Closing Köln Hbf for an hour delays 8 trains (117 min); Köln, Frankfurt, Hannover and the Köln–Rhein/Main line together: 46 trains and 966 delay minutes by the evening, in a gentle model.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D24-Network-Germany-Rail-Delays/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D24-Network-Germany-Rail-Delays",
+   "thumb": "assets/thumbs/day24.jpg"
   },
   {
    "day": 25,
