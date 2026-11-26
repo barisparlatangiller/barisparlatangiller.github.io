@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-26",
  "blocks": {
   "1": "Value, form & everyday life",
   "2": "Hidden patterns & what-if cities",
@@ -347,21 +347,29 @@
    "day": 25,
    "date": "2026-11-25",
    "theme": "Is this a map?",
-   "city": "?",
+   "city": "London",
    "block": 4,
-   "title": "Not quite a map",
-   "question": "City and story revealed on 25 Nov.",
-   "status": "planned"
+   "title": "Is a stage a map?",
+   "question": "How do six people share one stage? Manifest performing Hileli at OVO Arena Wembley, mapped every 2 seconds.",
+   "status": "live",
+   "finding": "14 changes of who stands in front, 430 m walked together and 21 new formations in one song, read frame by frame from the concert video.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D25-IsThisAMap-London-Manifest-Stage/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D25-IsThisAMap-London-Manifest-Stage",
+   "thumb": "assets/thumbs/day25.jpg"
   },
   {
    "day": 26,
    "date": "2026-11-26",
    "theme": "Water",
-   "city": "?",
+   "city": "Berlin",
    "block": 4,
-   "title": "Where the water decides",
-   "question": "City and story revealed on 26 Nov.",
-   "status": "planned"
+   "title": "A City Above Water",
+   "question": "How far below Stralau's streets and buildings does the groundwater lie, and how high can it rise?",
+   "status": "live",
+   "finding": "Median depth to groundwater 2.35 m (2020); 29% of the land and 12.8% of 1,870 buildings have it within 2 m. At Berlin's highest expected level (zeHGW) it rises a median 0.6 m.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D26-Water-Berlin-Groundwater-Stralau/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D26-Water-Berlin-Groundwater-Stralau",
+   "thumb": "assets/thumbs/day26.jpg"
   },
   {
    "day": 27,
