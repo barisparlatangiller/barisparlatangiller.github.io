@@ -389,11 +389,15 @@
    "day": 28,
    "date": "2026-11-28",
    "theme": "Senses: Feeling",
-   "city": "?",
+   "city": "İstanbul",
    "block": 4,
-   "title": "How a city feels",
-   "question": "City and story revealed on 28 Nov.",
-   "status": "planned"
+   "title": "Feeling · Where the continents meet",
+   "question": "How do İstanbul's ferries bring Europe and Asia together?",
+   "status": "live",
+   "finding": "84 ferry lines in OpenStreetMap, 44 of them cross between Europe and Asia; 53 piers. The shortest crossing, Kanlıca → Emirgan, is 0.8 km.",
+   "url": "https://barisparlatangiller.github.io/30DMC26-D28-Feeling-Istanbul-Ferries/",
+   "repo": "https://github.com/barisparlatangiller/30DMC26-D28-Feeling-Istanbul-Ferries",
+   "thumb": "assets/thumbs/day28.jpg"
   },
   {
    "day": 29,
